@@ -70,8 +70,8 @@ const Chip = () => {
 
   return (
     <div >
-    <div className=" -z-10 absolute ">
-        <img src={bg }alt="bg-theme" /> 
+    <div className=" -z-10 absolute h-full ">
+        <img src={bg }alt="bg-theme" className=' h-full' /> 
     </div>      
     <div  className= ' z-20  flex justify-center mt-[5rem]'>
     <div
