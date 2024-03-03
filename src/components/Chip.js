@@ -42,7 +42,6 @@ const Chip = () => {
     setUsersVisibility(true);
   }
   useEffect(() => {
-    console.log(searchText);
     searchUsers();
   }, [searchText]);
 
